@@ -1,0 +1,24 @@
+name: cross_platform_music_player
+description: A Flutter music player for Android and Web.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.0
+  file_picker: ^10.3.7
+  # Keep this dependency if this is the same package already used by your project.
+  # If your current pubspec has a different working version, keep that version.
+  on_audio_query_pluse: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
